@@ -1,0 +1,55 @@
+
+
+/*  */
+.heroSection{
+    height: 932px;
+    background-image: url("../images/hero.jpg");
+    background-size: cover;
+  }
+
+  /*  */
+  .Hero_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 1px;
+    height: 100%;
+    overflow: hidden;
+    margin-bottom: 0px;
+    width: 100%;
+
+  }
+  .Hero_Header_fontSize{
+    font-size: var(--hero-header);
+    color: var(--secondary_color);
+    margin-bottom: 3px;
+    font-family: var(--font-family);
+
+  }
+
+  .Hero__sectionHeader{
+    font-size: var(--hearder-section);
+    font-family: var(--font-family);
+
+  }
+
+
+  .Button_Background{
+    background-color: transparent;
+     }
+
+     .text_elements{
+      color: var(--secondary_color);
+
+     }
+
+     .divider{
+        width: 100px; 
+        height: 5px; 
+        background-color: var(--secondary-color);
+      }
+      
+     
+
+

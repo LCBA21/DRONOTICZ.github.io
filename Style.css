@@ -1,0 +1,295 @@
+@import url("Sections/Hero.css");
+@import url("Sections/Articles.css");
+@import url("Sections/AboutUs.css");
+@import url("Sections/Subscribe.css");
+@import url("Sections/Nav.css");
+@import url("Sections/Footer.css");
+@import url("Sections/Responsive.css");
+@import url("Sections/reset.css");
+:root{
+  --primary-color: #CBDEEC;
+  --secondary-color: #0000;
+  --backgdrop-color: #F8F8F8;
+  
+  --paragraph:16px;
+  --links:24px;
+  --hearder-section:32px;
+  --hero-header:112px;
+  
+  --font-family:'Inter',sans-serif;
+  --weight1:400;
+  --weight2:300;
+  }
+  
+
+
+
+
+body {
+  margin: 0;
+  padding: 0;
+
+
+}
+
+.hero_background{
+background-color: var(--primary_color);
+
+}
+
+
+
+
+.text-container{
+    position: absolute;
+    flex: 1;
+    top: 200px;
+    left: 20px;
+ /*Moving attribute  */
+    padding: 50px 300px;
+    color: #fff;
+
+}
+
+
+.Font_Family{
+    font-family: 'Inter',sans-serif;
+   
+}
+
+
+
+.column {
+    float: left;
+    width: 50.33%;
+    padding-top: 50px;
+    padding-right: 20px;
+    padding-left: 20px;
+
+}
+
+
+
+
+.div_center{
+text-align: center;
+justify-content: center;
+}
+/*css for featured players section  */
+.column_cards2 {
+  float: left;
+  width: 10.33%;
+  padding-top: 20px;
+  padding-right: 50px;
+  padding-left: 200px;
+  text-align: center;
+justify-content: center;
+
+}
+/*css for featured players section  */
+
+
+.column_cards3 {
+  float: left;
+  width: 10.33%;
+  padding-top: 20px;
+  padding-right: 25px;
+  padding-left: 200px;
+  text-align: center;
+justify-content: center;
+
+}
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  
+  .footer_img {
+    border-radius: 50%;
+    float: right;
+    padding: 10px ; 
+
+  }
+
+  .media_icons
+  {
+    float: left;
+    padding: 10px; 
+
+  }
+/*css for outer div to flex other elements*/
+  .main-testimony {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .testimony-text{
+    padding-top: 50px;
+    text-align: center;
+    color: #fff;
+  }
+
+  /*css for inner div to flex other elements*/
+
+  /*
+  .testimony-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  */
+  .Articles_Div
+  {
+    display: inline-flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #F8F8F8;
+    
+   
+  }
+
+  .featured_player_card
+  {
+    display: flex;
+    flex-direction: column;
+
+
+  }
+
+.button_flex{
+  display: flex;
+  flex-direction: column;
+
+}
+
+  
+  .Footer_text
+  {
+    float: left;
+    padding: 150px; 
+    color: #fff;
+    font-family: var(--font_family);
+
+  }
+
+  /* Social media icons*/
+
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 5px;
+    height: 5px;
+    text-align: center;
+    text-decoration: none;
+    margin: 20px 10px;
+  }
+ 
+
+  
+
+  .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 30px;
+  }
+  
+  .flex-containerParent {
+    display: flex;
+    flex-wrap: nowrap;
+
+  }
+
+  
+  .flex-containerchild {
+    width: 100px;
+    margin: 100px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }
+  /* Hero section   and nav bar starts here*/
+
+
+
+
+
+ 
+
+  
+
+
+  .Nav_container {
+    display: flex;
+    border-radius: 1px;
+    margin-bottom: 0px;
+    width: 100%;
+    top: 0;
+    background-size: cover;
+    position: fixed;
+  }
+  /* Hero section   and nav bar ends here*/
+  
+
+
+
+
+.subcribe_con{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  margin: 10px 10px;
+
+}
+
+
+
+  
+
+  .element {
+    display: flex;
+    position: fixed;
+    
+  }
+  
+
+  .navigation li {
+    margin: 0 10px;
+  }
+  
+  .navigation li a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .navigation li a:hover {
+    color: white;
+    background-color: #00471B;
+  }
+  
+  .element img {
+    background: none;
+    margin-left: 300px; 
+    margin-top: 20px;
+  }
+  
+  .element button {
+    margin-top: 12px;
+    margin-left: 30px;
+  }
+  
+  .element ~ .element {
+    margin-top: 20px;
+  }
+  
+
+  

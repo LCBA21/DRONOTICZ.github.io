@@ -1,0 +1,40 @@
+
+  
+.About_section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    border-radius: 1px;
+    height: 100%;
+    overflow: hidden;
+    margin-bottom: 0px;
+    width: 100%;
+  }
+
+  .divider{
+    width: 100px; 
+    height: 5px; 
+    color: var(--secondary_color);
+  }
+  
+  .About_imgSize{
+    width:752px;
+    height:835px;
+    }
+  
+
+
+    .AboutUs_paragraph{
+      font-family: var(--font-family);
+      font-size: var(--paragraph);
+      font-weight: var(--weight1);
+      justify-content: center;
+      padding-left: 25px;
+      padding-right: 25px;
+      margin-top: 150px;
+  
+     }
+
+    
+

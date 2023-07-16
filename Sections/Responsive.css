@@ -1,0 +1,35 @@
+@media only screen and (max-width: 600px) {
+
+  }
+  
+  @media only screen and (max-width: 375px) {
+ 
+  .heroSection{
+    display: flex;
+  
+  }
+
+  .Hero_container{
+    margin-left: 50px;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+
+  }
+
+    .Hero_Header_fontSize{
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 50px;
+
+    }
+
+
+
+
+  }
+  
+ 

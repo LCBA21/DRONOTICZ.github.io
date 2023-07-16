@@ -1,0 +1,67 @@
+
+:root{
+  --primary-color: #CBDEEC;
+  --secondary-color: #0000;
+  --backgdrop-color: #F8F8F8;
+  
+  --paragraph:16px;
+  --links:24px;
+  --hearder-section:32px;
+  --hero-header:112px;
+  
+  --font-family:'Inter',sans-serif;
+  }
+  
+
+.Subscribe_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 1px;
+    height: 100%;
+    overflow: hidden;
+    margin-bottom: 0px;
+    width: 100%;
+    background-color: #F8F8F8;
+  }
+
+  .center_box{
+    display: flex;
+    justify-content: center;
+
+      }
+
+      .Subscribe_input{
+        padding: 10px 70px  
+        
+              
+      }
+
+      
+    .Subscribe_submit{
+      margin-top: 20px; 
+      width: 141px;
+       height:  20px; 
+       margin-bottom: 20px;
+    }
+
+      .Subscribe_Headertext
+      {
+       font-family: var(--font-family);
+       font-size: var(--hearder-section);
+       /* font-size: var(--hearder__section); does not work*/
+       font-weight: var(--weight2);
+       margin-top: 20px;
+      }
+
+      .Subscribe_paragraph{
+        font-family: var(--font-family);
+        font-size: var(--paragraph);
+        font-weight: var(--weight1);
+        margin-top: 20px;
+        margin-bottom: 20px;
+    
+       }
+
+      
